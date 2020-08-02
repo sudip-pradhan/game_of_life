@@ -1,0 +1,74 @@
+*{
+    border: 0;
+    margin: 0;
+    background-color: white;
+}
+h1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.note{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button_div{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    overflow: hidden;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 0;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+button:hover{
+    overflow: hidden;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 0;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    font-size: 22px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+button:active{
+    overflow: hidden;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 0;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
